@@ -858,6 +858,7 @@ ol {
 }
 
 .featured__item__pic {
+	width: 300px;
 	height: 270px;
 	position: relative;
 	overflow: hidden;
@@ -923,6 +924,13 @@ ol {
 	-ms-transition: all, 0.3s;
 	-o-transition: all, 0.3s;
 	transition: all, 0.3s;
+}
+.featured__item__pic > img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
 }
 
 .featured__item__text {

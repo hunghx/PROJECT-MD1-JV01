@@ -41,8 +41,7 @@ for (let i = 0; i < totalPage; i++) {
    links+= `<li class="page-item ${i==pageCurrent?'active':''}" onclick="handlePagination(${i})"><a class="page-link" href="#">${i+1}</a></li>`
 }
 
-document.querySelector(".pagination").innerHTML=  `
-${links}`
+document.querySelector(".pagination").innerHTML=  links
 }
 
 
