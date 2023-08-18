@@ -2671,6 +2671,21 @@ ol {
 	font-size: 14px;
 	line-height: 32px;
 }
+#checkout{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin: 30px;
+}
+#checkout button{
+	box-sizing: border-box;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: yellow;
+}
+#checkout button:hover{
+	opacity: 0.8;
+}
 
 .footer__widget p {
 	font-size: 14px;
